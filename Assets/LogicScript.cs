@@ -13,7 +13,6 @@ public class LogicScript : MonoBehaviour
     [ContextMenu("Increase Score")]
     public void addScore()
     {
-        Debug.Log("addScore triggered");
         score += 1;
         scoreText.text = score.ToString();
     }
