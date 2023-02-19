@@ -26,6 +26,7 @@ public class SpriteScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) 
     {
+        logic.hideInstructions();
         logic.endGame();
         spriteActive = false;
     }
