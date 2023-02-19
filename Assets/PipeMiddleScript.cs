@@ -21,6 +21,8 @@ public class PipeMiddleScript : MonoBehaviour
     {
         if (collision.gameObject.layer == 3)
         {
+            Debug.Log("addScore triggered");
+
             logic.addScore();
         }
     }

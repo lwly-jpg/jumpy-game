@@ -584,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1186818765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -787,6 +787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 1950867287}
+  gameOverScreen: {fileID: 1186818764}
 --- !u!4 &1825942632
 Transform:
   m_ObjectHideFlags: 0
@@ -815,7 +816,7 @@ GameObject:
   - component: {fileID: 1858795509}
   - component: {fileID: 1858795508}
   - component: {fileID: 1858795507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,6 +940,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1858795508}
+  jumpPower: 10
+  logic: {fileID: 0}
 --- !u!1 &1950867285
 GameObject:
   m_ObjectHideFlags: 0
