@@ -739,7 +739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipe: {fileID: 3177193567417069943, guid: 4aec2e8ecb3054d75849f7c5a01bb486, type: 3}
-  spawnRate: 2
+  spawnRate: 5
   heightOffset: 10
 --- !u!4 &1713331729
 Transform:
@@ -940,8 +940,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1858795508}
-  jumpPower: 10
+  jumpPower: 8
   logic: {fileID: 0}
+  spriteActive: 1
 --- !u!1 &1950867285
 GameObject:
   m_ObjectHideFlags: 0
